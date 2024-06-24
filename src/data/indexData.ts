@@ -1,9 +1,9 @@
 export const ProductLinkData = {
   porm: {
-    title: "Build with Prisma ORM",
+    title: "Build with Baileys",
     icon: "database",
     description:
-      "Open source Node.js and TypeScript ORM with an intuitive data model, automated migrations, type-safety, and auto-completion.",
+      "Open source Node.js and Whatsapp Api",
     links: [
       {
         url: "/getting-started",
