@@ -23,11 +23,11 @@ export const ProductLinkData = {
       "Take your time to expand your WhatsApp bot technology with us guaranteed .",
     links: [
       {
-        url: "/whatsappbot/what-is-bot",
+        url: "/orm/prisma-schema",
         title: "Zyro WhatsApp Bot",
       },
       {
-        url: "/panel/what-is-panel",
+        url: "/orm/prisma-schema",
         title: "Zyro Panel",
       },
     ],
