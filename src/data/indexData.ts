@@ -234,7 +234,7 @@ export const CommunityLinksData = [
     icon: "fa-brands fa-whatsapp",
     link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
     linkText: "Join Our WhatsApp Group",
-    lonk: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
+    link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
     linkText: "test",
   },
 ];
