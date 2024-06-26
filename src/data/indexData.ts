@@ -206,7 +206,7 @@ export const CommunityLinksData = [
     title: "instagram",
     description:
       "Keep an eye on our content on Instagram ",
-    icon: "fa-brands fa-instagram",
+    icon: "fa fa-instagram",
     link: "https://www.instagram.com/@valzyycans",
     linkText: "Follow us on Instagram",
   },
