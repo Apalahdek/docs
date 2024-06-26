@@ -227,4 +227,14 @@ export const CommunityLinksData = [
     link: "https://twitter.com/prisma",
     linkText: "Follow us on X",
   },
+  {
+    id: "whatsapp",
+    title: "WhatsApp",
+    description: "To continue to know related information, join groups and communities ",
+    icon: "fa-brands fa-whatsapp",
+    link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
+    linkText: "Join Our WhatsApp Group",
+    lonk: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
+    linkText: "test",
+  },
 ];
