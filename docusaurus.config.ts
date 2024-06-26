@@ -12,7 +12,7 @@ const config: Config = {
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://www.prisma.io",
+  url: "https://zyrohost.my.id",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: DOCUSAURUS_BASE_URL,
@@ -99,7 +99,7 @@ const config: Config = {
           path: "content",
           sidebarPath: "./sidebars.ts",
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/prisma/docs/tree/main",
+          
         },
         blog: false,
         theme: {
@@ -122,7 +122,7 @@ const config: Config = {
         srcDark: "img/logo-white.svg",
         alt: "Prisma logo",
         src: "img/logo.svg",
-        href: "https://www.prisma.io/",
+        href: "https://www.zyrohost.my.id",
         target: "_self",
       },
       items: [
@@ -161,15 +161,9 @@ const config: Config = {
           label: "Pulse",
         },
         {
-          href: "https://github.com/prisma/",
+          href: "https://client.zyrohost.my.id",
           position: "right",
-          className: "header-github-link",
-          "aria-label": "GitHub repository",
-        },
-        {
-          href: "https://console.prisma.io/login?utm_source=docs&utm_medium=login",
-          position: "right",
-          label: "Login",
+          label: "Visit",
           className: "navbar-login-btn internal teal-btn",
         },
       ],
@@ -384,15 +378,7 @@ const config: Config = {
           items: [
             {
               label: " ",
-              href: "https://discord.gg/KQyTW2H5ca",
-              customProps: {
-                icon: "fa-brands fa-discord",
-                internal: true,
-              },
-            },
-            {
-              label: " ",
-              href: "https://x.com/prisma",
+              href: "https://x.com/valzyycans",
               customProps: {
                 icon: "fa-brands fa-x-twitter",
                 internal: true,
@@ -400,7 +386,7 @@ const config: Config = {
             },
             {
               label: " ",
-              href: "https://www.youtube.com/prismadata",
+              href: "https://www.youtube.com/valzyofc",
               customProps: {
                 icon: "fa-brands fa-youtube",
                 internal: true,
@@ -408,7 +394,7 @@ const config: Config = {
             },
             {
               label: " ",
-              href: "https://pris.ly/whatsapp",
+              href: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
               customProps: {
                 icon: "fa-brands fa-whatsapp",
                 internal: true,
@@ -416,9 +402,9 @@ const config: Config = {
             },
             {
               label: " ",
-              href: "https://github.com/prisma",
+              href: "https://client.zyrohost.my.id",
               customProps: {
-                icon: "fa-brands fa-github",
+                icon: "bi bi-globe",
                 internal: true,
               },
             },
@@ -432,7 +418,7 @@ const config: Config = {
         href: "https://www.prisma.io/",
         target: "_self",
       },
-      copyright: `© ${new Date().getFullYear()} Prisma Data, Inc.`,
+      copyright: `© ${new Date().getFullYear()} Zyro Data, Inc.`,
     },
     docs: {
       sidebar: {
