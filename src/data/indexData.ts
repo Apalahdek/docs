@@ -10,25 +10,25 @@ export const ProductLinkData = {
         title: "Getting started",
       },
       {
-        url: "https://github.com/prisma/prisma-examples",
+        url: "https://wa.me/62895338906326",
         title: "Example projects",
         external: true,
       },
     ],
   },
   pdp: {
-    title: "Grow as your app evolves",
+    title: "Develop your WhatsApp bot with us",
     icon: "triangle",
     description:
-      "Expand your application capabilities with global database caching, connection pooling, and real-time database subscriptions.",
+      "Take your time to expand your WhatsApp bot technology with us guaranteed .",
     links: [
       {
-        url: "/accelerate/what-is-accelerate",
-        title: "Prisma Accelerate",
+        url: "/whatsappbot/what-is-bot",
+        title: "Zyro WhatsApp Bot",
       },
       {
-        url: "/pulse/what-is-pulse",
-        title: "Prisma Pulse",
+        url: "/panel/what-is-panel",
+        title: "Zyro Panel",
       },
     ],
   },
@@ -202,29 +202,29 @@ export const DatabaseData = [
 
 export const CommunityLinksData = [
   {
-    id: "discord",
-    title: "Discord",
+    id: "instagram",
+    title: "instagram",
     description:
-      "Chat in real-time, hang out, and share ideas with community members and our team.",
-    icon: "fa-brands fa-discord",
-    link: "https://pris.ly/discord",
-    linkText: "Join our server",
+      "Keep an eye on our content on Instagram ",
+    icon: "fa-brands fa-instagram",
+    link: "https://www.instagram.com/@valzyycans",
+    linkText: "Follow us on Instagram",
   },
   {
-    id: "github",
-    title: "GitHub",
+    id: "youtube",
+    title: "YouTube",
     description:
-      "Browse the Prisma ORM source code, send feedback, or join the discussion on GitHub.",
-    icon: "fa-brands fa-github",
-    link: "https://github.com/prisma",
-    linkText: "Contribute in GitHub",
+      "all videos about WhatsApp bots are available on our YouTube",
+    icon: "fa-brands fa-youtube",
+    link: "https://youtube.com/@valzyofc",
+    linkText: "Subscribe us on youtube",
   },
   {
     id: "X",
     title: "X",
     description: "Stay up-to-date, join the discussion, and connect with the community on X.",
     icon: "fa-brands fa-x-twitter",
-    link: "https://twitter.com/prisma",
+    link: "https://twitter.com/valzyycans",
     linkText: "Follow us on X",
   },
   {
@@ -234,7 +234,5 @@ export const CommunityLinksData = [
     icon: "fa-brands fa-whatsapp",
     link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
     linkText: "Join Our WhatsApp Group",
-    link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
-    linkText: "test",
   },
 ];
