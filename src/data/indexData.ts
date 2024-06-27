@@ -206,7 +206,7 @@ export const CommunityLinksData = [
     title: "instagram",
     description:
       "Keep an eye on our content on Instagram ",
-    icon: "fa fa-instagram",
+    icon: "fa-brands fa-instagram",
     link: "https://www.instagram.com/@valzyycans",
     linkText: "Follow us on Instagram",
   },
@@ -232,7 +232,7 @@ export const CommunityLinksData = [
     title: "WhatsApp",
     description: "To continue to know related information, join groups and communities ",
     icon: "fa-brands fa-whatsapp",
-    link: "https://chat.whatsapp.com/BWDREfaaR6Y0Iey3leZVMw",
+    link: "https://chat.whatsapp.com/GgXcCDl6ghCCfp6YznSLzi",
     linkText: "Join Our WhatsApp Group",
   },
 ];
