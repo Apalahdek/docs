@@ -6,9 +6,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 const DOCUSAURUS_BASE_URL = process.env.DOCUSAURUS_BASE_URL ?? "/";
 
 const config: Config = {
-  title: "Prisma Documentation",
+  title: "NextzyDev Free Feature",
   tagline:
-    "Get started with Prisma in the official documentation, and learn more about all Prisma's features with reference documentation, guides, and more.",
+    "Get started with Zyro in the official documentation, and learn more about all Bot features with reference documentation, guides, and more.",
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
