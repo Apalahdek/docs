@@ -3,32 +3,32 @@ export const ProductLinkData = {
     title: "Explore JKT48 Connect API",
     icon: "fa-solid fa-code",
     description:
-      "API yang dirancang untuk penggemar JKT48, menghadirkan data terbaru dan lengkap tentang anggota, jadwal, dan acara.",
+      "API untuk mendapatkan data terbaru seputar JKT48 seperti anggota, jadwal teater, dan berita terkini.",
     links: [
       {
         url: "/getting-started",
-        title: "Memulai dengan API",
+        title: "Mulai menggunakan API",
       },
       {
         url: "https://api.jkt48connect.my.id/docs",
-        title: "Dokumentasi API",
+        title: "Dokumentasi Lengkap",
         external: true,
       },
     ],
   },
   pdp: {
-    title: "Integrasikan API JKT48 ke dalam Aplikasi Anda",
+    title: "Kembangkan Aplikasi dengan API JKT48",
     icon: "fa-solid fa-layer-group",
     description:
-      "Bangun aplikasi penggemar dengan API kami untuk akses data anggota, jadwal teater, dan banyak lagi.",
+      "Integrasikan API kami untuk menampilkan informasi teater dan aktivitas JKT48 secara real-time.",
     links: [
       {
-        url: "/features/member-endpoint",
-        title: "Endpoint Anggota",
+        url: "/orm/prisma-schema",
+        title: "Panduan Implementasi",
       },
       {
-        url: "/features/schedule-endpoint",
-        title: "Endpoint Jadwal",
+        url: "/orm/prisma-schema",
+        title: "Fitur Utama API",
       },
     ],
   },
@@ -36,43 +36,55 @@ export const ProductLinkData = {
 
 export const ORMCardLinkData = {
   components: {
-    title: "Fitur Utama API",
-    description: "Jelajahi komponen utama API JKT48 Connect.",
+    title: "Fitur API JKT48 Connect",
+    description: "Berbagai endpoint yang dapat digunakan untuk mendapatkan data lengkap JKT48.",
     links: [
       {
-        url: "/features/member-endpoint",
-        title: "Data Anggota",
+        url: "/orm/prisma-schema",
+        title: "Anggota JKT48",
       },
       {
-        url: "/features/schedule-endpoint",
+        url: "/orm/tools/prisma-cli",
         title: "Jadwal Teater",
       },
       {
-        url: "/features/news-endpoint",
+        url: "/orm/prisma-client",
         title: "Berita Terbaru",
       },
       {
-        url: "/features/event-endpoint",
+        url: "/orm/tools/prisma-studio",
         title: "Acara Khusus",
       },
     ],
   },
 
   reference: {
-    title: "Referensi",
-    description: "Pelajari lebih dalam tentang penggunaan dan dokumentasi API.",
+    title: "Referensi API",
+    description: "Dokumentasi teknis untuk memanfaatkan fitur API JKT48 Connect.",
     links: [
       {
-        url: "/docs/authentication",
-        title: "Panduan Autentikasi",
+        url: "/orm/reference/prisma-client-reference",
+        title: "Cara Autentikasi",
       },
       {
-        url: "/docs/error-handling",
-        title: "Referensi Pesan Error",
-      },
-      {
-        url: "/docs/api-endpoints",
+        url: "/orm/reference/prisma-cli-reference",
         title: "Daftar Endpoint",
+      },
+      {
+        url: "/orm/reference/prisma-schema-reference",
+        title: "Panduan Integrasi",
+      },
+      {
+        url: "/accelerate/api-reference",
+        title: "Referensi API Tambahan",
+      },
+      {
+        url: "/orm/reference/error-reference",
+        title: "Pesan Error",
+      },
+      {
+        url: "/pulse/api-reference",
+        title: "Dokumentasi Lengkap",
       },
     ],
   },
@@ -80,63 +92,79 @@ export const ORMCardLinkData = {
 
 export const ORMGeneralLinkData = [
   {
-    title: "Panduan Autentikasi",
-    description:
-      "Pelajari cara mendapatkan token akses untuk mengakses API kami.",
-    url: "/docs/authentication",
+    title: "Panduan Penggunaan",
+    description: "Cara menggunakan API JKT48 Connect untuk aplikasi Anda.",
+    url: "/orm/prisma-client/queries/crud",
     icon: "fa-solid fa-key",
   },
   {
-    title: "Integrasi Aplikasi",
-    description:
-      "Gunakan API kami untuk membangun aplikasi berbasis data JKT48.",
-    url: "/docs/integration-guide",
+    title: "Integrasi API",
+    description: "Integrasikan data JKT48 dalam aplikasi web atau mobile.",
+    url: "/orm/overview/prisma-in-your-stack",
     icon: "fa-solid fa-cogs",
   },
   {
     title: "Endpoint Jadwal",
-    description: "Dapatkan data jadwal teater dan acara langsung.",
-    url: "/features/schedule-endpoint",
+    description: "Dapatkan data jadwal teater JKT48 dengan API.",
+    url: "/orm/more/migrating-to-prisma",
     icon: "fa-solid fa-calendar",
   },
   {
-    title: "Endpoint Anggota",
-    description: "Akses data anggota JKT48 termasuk profil dan status aktif.",
-    url: "/features/member-endpoint",
+    title: "Data Anggota",
+    description: "Informasi lengkap mengenai semua anggota JKT48.",
+    url: "/orm/prisma-client/deployment",
     icon: "fa-solid fa-users",
   },
   {
-    title: "Endpoint Berita",
-    description: "Tetap update dengan berita dan pengumuman resmi JKT48.",
-    url: "/features/news-endpoint",
+    title: "Berita JKT48",
+    description: "Berita terkini seputar aktivitas JKT48.",
+    url: "/accelerate/getting-started",
     icon: "fa-solid fa-newspaper",
+  },
+  {
+    title: "Panduan Pengembangan",
+    description: "Cara memanfaatkan API untuk berbagai platform.",
+    url: "/pulse/getting-started",
+    icon: "fa-solid fa-book",
+  },
+  {
+    title: "Panel Pengelolaan",
+    description: "Kelola proyek Anda dengan fitur manajemen berbasis API.",
+    url: "/platform/about",
+    icon: "fa-solid fa-chart-simple",
+  },
+  {
+    title: "CLI untuk API",
+    description: "Gunakan perintah CLI untuk mengakses API dengan mudah.",
+    url: "/platform/platform-cli/commands",
+    icon: "fa-solid fa-terminal",
   },
 ];
 
 export const DatabaseData = [
   {
-    title: "Data Anggota",
-    icon: "/img/icons/member.svg",
-    darkIcon: "memberdark",
-    url: "/features/member-endpoint",
+    title: "Data Anggota JKT48",
+    icon: "/img/technologies/postgresqlsimple.svg",
+    darkIcon: "postgresqldark",
+    url: "/orm/overview/databases/postgresql",
   },
   {
     title: "Jadwal Teater",
-    icon: "/img/icons/schedule.svg",
-    darkIcon: "scheduledark",
-    url: "/features/schedule-endpoint",
+    icon: "/img/technologies/mysqlsimple.svg",
+    darkIcon: "mysqlsimple",
+    url: "/orm/overview/databases/mysql",
   },
   {
-    title: "Berita",
-    icon: "/img/icons/news.svg",
-    darkIcon: "newsdark",
-    url: "/features/news-endpoint",
+    title: "Berita Resmi",
+    icon: "/img/technologies/sqlserver.svg",
+    darkIcon: "sqlserver",
+    url: "/orm/overview/databases/sql-server",
   },
   {
-    title: "Acara",
-    icon: "/img/icons/event.svg",
-    darkIcon: "eventdark",
-    url: "/features/event-endpoint",
+    title: "Acara Khusus",
+    icon: "/img/technologies/sqlite.svg",
+    darkIcon: "sqlite",
+    url: "/orm/overview/databases/sqlite",
   },
 ];
 
@@ -144,24 +172,23 @@ export const CommunityLinksData = [
   {
     id: "github",
     title: "GitHub",
-    description: "Lihat repository kami untuk API JKT48 Connect.",
+    description: "Lihat repository API JKT48 Connect untuk dokumentasi dan contoh kode.",
     icon: "fa-brands fa-github",
     link: "https://github.com/valzyofc/api-jkt48connect",
     linkText: "Kunjungi GitHub Kami",
   },
   {
     id: "documentation",
-    title: "Dokumentasi",
-    description:
-      "Pelajari cara memanfaatkan API JKT48 Connect melalui dokumentasi kami.",
+    title: "Dokumentasi API",
+    description: "Panduan lengkap penggunaan API JKT48 Connect.",
     icon: "fa-solid fa-book",
     link: "https://api.jkt48connect.my.id/docs",
     linkText: "Baca Dokumentasi",
   },
   {
     id: "support",
-    title: "Dukungan",
-    description: "Butuh bantuan? Hubungi kami melalui saluran dukungan.",
+    title: "Dukungan Teknis",
+    description: "Hubungi kami jika membutuhkan bantuan teknis.",
     icon: "fa-solid fa-headset",
     link: "mailto:support@jkt48connect.my.id",
     linkText: "Hubungi Dukungan",
@@ -169,7 +196,7 @@ export const CommunityLinksData = [
   {
     id: "feedback",
     title: "Feedback",
-    description: "Berikan masukan dan saran untuk pengembangan API kami.",
+    description: "Berikan masukan untuk pengembangan API kami.",
     icon: "fa-solid fa-comments",
     link: "https://forms.jkt48connect.my.id/feedback",
     linkText: "Kirim Feedback",
