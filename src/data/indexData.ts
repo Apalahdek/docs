@@ -34,6 +34,62 @@ export const ProductLinkData = {
   },
 };
 
+export const ORMCardLinkData = {
+  components: {
+    title: "Fitur API JKT48 Connect",
+    description: "Berbagai endpoint yang dapat digunakan untuk mendapatkan data lengkap JKT48.",
+    links: [
+      {
+        url: "/orm/prisma-schema",
+        title: "Anggota JKT48",
+      },
+      {
+        url: "/orm/tools/prisma-cli",
+        title: "Jadwal Teater",
+      },
+      {
+        url: "/orm/prisma-client",
+        title: "Berita Terbaru",
+      },
+      {
+        url: "/orm/tools/prisma-studio",
+        title: "Acara Khusus",
+      },
+    ],
+  },
+
+  reference: {
+    title: "Referensi API",
+    description: "Dokumentasi teknis untuk memanfaatkan fitur API JKT48 Connect.",
+    links: [
+      {
+        url: "/orm/reference/prisma-client-reference",
+        title: "Cara Autentikasi",
+      },
+      {
+        url: "/orm/reference/prisma-cli-reference",
+        title: "Daftar Endpoint",
+      },
+      {
+        url: "/orm/reference/prisma-schema-reference",
+        title: "Panduan Integrasi",
+      },
+      {
+        url: "/accelerate/api-reference",
+        title: "Referensi API Tambahan",
+      },
+      {
+        url: "/orm/reference/error-reference",
+        title: "Pesan Error",
+      },
+      {
+        url: "/pulse/api-reference",
+        title: "Dokumentasi Lengkap",
+      },
+    ],
+  },
+};
+
 export const ORMGeneralLinkData = [
   {
     title: "Panduan Penggunaan",
@@ -82,57 +138,6 @@ export const ORMGeneralLinkData = [
     description: "Gunakan perintah CLI untuk mengakses API dengan mudah.",
     url: "/platform/platform-cli/commands",
     icon: "fa-solid fa-terminal", // Ikon terminal untuk CLI
-  },
-];
-
-export const ORMGeneralLinkData = [
-  {
-    title: "Panduan Penggunaan",
-    description: "Cara menggunakan API JKT48 Connect untuk aplikasi Anda.",
-    url: "/orm/prisma-client/queries/crud",
-    icon: "fa-solid fa-key",
-  },
-  {
-    title: "Integrasi API",
-    description: "Integrasikan data JKT48 dalam aplikasi web atau mobile.",
-    url: "/orm/overview/prisma-in-your-stack",
-    icon: "fa-solid fa-cogs",
-  },
-  {
-    title: "Endpoint Jadwal",
-    description: "Dapatkan data jadwal teater JKT48 dengan API.",
-    url: "/orm/more/migrating-to-prisma",
-    icon: "fa-solid fa-calendar",
-  },
-  {
-    title: "Data Anggota",
-    description: "Informasi lengkap mengenai semua anggota JKT48.",
-    url: "/orm/prisma-client/deployment",
-    icon: "fa-solid fa-users",
-  },
-  {
-    title: "Berita JKT48",
-    description: "Berita terkini seputar aktivitas JKT48.",
-    url: "/accelerate/getting-started",
-    icon: "fa-solid fa-newspaper",
-  },
-  {
-    title: "Panduan Pengembangan",
-    description: "Cara memanfaatkan API untuk berbagai platform.",
-    url: "/pulse/getting-started",
-    icon: "fa-solid fa-book",
-  },
-  {
-    title: "Panel Pengelolaan",
-    description: "Kelola proyek Anda dengan fitur manajemen berbasis API.",
-    url: "/platform/about",
-    icon: "fa-solid fa-chart-simple",
-  },
-  {
-    title: "CLI untuk API",
-    description: "Gunakan perintah CLI untuk mengakses API dengan mudah.",
-    url: "/platform/platform-cli/commands",
-    icon: "fa-solid fa-terminal",
   },
 ];
 
