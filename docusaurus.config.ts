@@ -229,17 +229,6 @@ const config: Config = {
           className: "navbar-login-btn internal teal-btn",
         },
       ],
-    },
-    algolia: {
-      appId: process.env.ALGOLIA_APP_ID,
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: "prisma",
-      contextualSearch: false,
-      replaceSearchResultPathname: {
-        from: "/docs/",
-        to: DOCUSAURUS_BASE_URL,
-      }
-    },
     footer: {
       style: "dark",
       links: [
