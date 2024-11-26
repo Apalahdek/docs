@@ -229,6 +229,17 @@ const config: Config = {
           className: "navbar-login-btn internal teal-btn",
         },
       ],
+    },
+    algolia: {
+      appId: "5AJUZKII9J",
+      apiKey: "e5624fa5a52b29e8efa39bbed059c0d6",
+      indexName: "prisma",
+      contextualSearch: false,
+      replaceSearchResultPathname: {
+        from: "/docs/",
+        to: DOCUSAURUS_BASE_URL,
+      }
+    },
     footer: {
       style: "dark",
       links: [
@@ -545,7 +556,7 @@ const config: Config = {
         },
       ],
     },
-  } satisfies Preset.ThemeConfig
+  } satisfies Preset.ThemeConfig,
 };
 
 export default config;
