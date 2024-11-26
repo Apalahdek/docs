@@ -5,7 +5,7 @@ const path = require('path')
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-const DOCUSAURUS_BASE_URL = process.env.DOCUSAURUS_BASE_URL ?? "https://docs-jkt48connect.vercel.app";
+const DOCUSAURUS_BASE_URL = process.env.DOCUSAURUS_BASE_URL ?? "/";
 const DOCUSAURUS_POST_HOG_KEY = process.env.DOCUSAURUS_POST_HOG_KEY ?? "phc_DwQF5Mw3wfxSM7UIaxwZmjqnPqoIrEHJPi3DQFJlO9G";
 
 const config: Config = {
