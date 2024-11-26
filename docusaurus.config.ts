@@ -5,7 +5,7 @@ const path = require('path')
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-const DOCUSAURUS_BASE_URL = process.env.DOCUSAURUS_BASE_URL ?? "/";
+const DOCUSAURUS_BASE_URL = process.env.DOCUSAURUS_BASE_URL ?? "https://docs-jkt48connect.vercel.app";
 const DOCUSAURUS_POST_HOG_KEY = process.env.DOCUSAURUS_POST_HOG_KEY ?? "phc_DwQF5Mw3wfxSM7UIaxwZmjqnPqoIrEHJPi3DQFJlO9G";
 
 const config: Config = {
@@ -39,13 +39,13 @@ const config: Config = {
       src: "https://widget.kapa.ai/kapa-widget.bundle.js",
       async: true,
       "data-website-id": "1b51bb03-43cc-4ef4-95f1-93288a91b560",
-      "data-project-name": "Prisma",
+      "data-project-name": "JKT48Connect",
       "data-project-color": "#2D3748",
       "data-user-analytics-fingerprint-enabled": "true",
       "data-project-logo": "https://www.prisma.io/docs/ai_logo.png",
       "data-button-text": "Ask AI",
       "data-modal-example-questions":
-        "How can I setup relations in my Prisma Schema?,What is the difference between the 'migrate dev' and 'db push' commands?,Which cache strategy should I use for my query with Prisma Accelerate?,How can I subscribe to database events with Prisma Pulse?",
+        "Bagaimana Caranya agar saya dapat Menggunakan api jkt48connect?,What is the difference between the 'migrate dev' and 'db push' commands?,Which cache strategy should I use for my query with Prisma Accelerate?,How can I subscribe to database events with Prisma Pulse?",
       "data-button-image": "https://www.prisma.io/docs/ai_button.svg",
       "data-button-width": "64px",
       "data-button-height": "64px",
@@ -233,7 +233,7 @@ const config: Config = {
     algolia: {
       appId: "5AJUZKII9J",
       apiKey: "e5624fa5a52b29e8efa39bbed059c0d6",
-      indexName: "prisma",
+      indexName: "Jkt48",
       contextualSearch: false,
       replaceSearchResultPathname: {
         from: "/docs/",
